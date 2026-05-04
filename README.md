@@ -1,0 +1,2 @@
+# astrbot_env_python3.12_armhf_Debain12
+astrbot_env_python3.12_armhf_Debain12
