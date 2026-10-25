@@ -1,0 +1,5 @@
+checking file faiss/python/CMakeLists.txt
+checking file faiss/IndexIVF.cpp
+checking file faiss/IndexIVFIndependentQuantizer.cpp
+checking file faiss/invlists/OnDiskInvertedLists.cpp
+checking file faiss/impl/index_read.cpp

@@ -1,0 +1,15 @@
+[Unit]
+Description=AstrBot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ray
+WorkingDirectory=/home/ray/astrbot_workplace
+ExecStart=/opt/py3_12/bin/astrbot run
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

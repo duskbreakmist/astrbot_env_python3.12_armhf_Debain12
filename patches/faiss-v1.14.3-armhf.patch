@@ -1,0 +1,107 @@
+--- a/faiss/python/CMakeLists.txt
++++ b/faiss/python/CMakeLists.txt
+@@ -24,9 +24,11 @@
+     USE_TARGET_INCLUDE_DIRECTORIES TRUE
+   )
+   if(NOT ${CMAKE_SYSTEM_NAME} MATCHES "Darwin" AND NOT WIN32)
+-    set_source_files_properties(${source} PROPERTIES
+-      SWIG_FLAGS -DSWIGWORDSIZE64
+-    )
++    if(CMAKE_SIZEOF_VOID_P EQUAL 8)
++      set_source_files_properties(${source} PROPERTIES SWIG_FLAGS -DSWIGWORDSIZE64)
++    else()
++      set_source_files_properties(${source} PROPERTIES SWIG_FLAGS -DSWIGWORDSIZE32)
++    endif()
+   endif()
+   if(WIN32)
+     set_source_files_properties(${source} PROPERTIES
+--- a/faiss/IndexIVF.cpp
++++ b/faiss/IndexIVF.cpp
+@@ -1296,7 +1296,9 @@
+     // optional subsampling
+     idx_t max_nt = train_encoder_num_vectors();
+     if (max_nt <= 0) {
+-        max_nt = (size_t)1 << 35;
++        // Keep the training limit representable by size_t on 32-bit targets.
++        max_nt = std::min<idx_t>(
++                idx_t{1} << 35, std::numeric_limits<size_t>::max());
+     }
+ 
+     TransformedVectors tv(
+--- a/faiss/IndexIVFIndependentQuantizer.cpp
++++ b/faiss/IndexIVFIndependentQuantizer.cpp
+@@ -4,6 +4,10 @@
+  * This source code is licensed under the MIT license found in the
+  * LICENSE file in the root directory of this source tree.
+  */
++
++#include <algorithm>
++
++#include <limits>
+ 
+ #include <faiss/IndexIVFIndependentQuantizer.h>
+ #include <faiss/IndexIVFPQ.h>
+@@ -143,7 +147,8 @@
+     // optional subsampling
+     idx_t max_nt = index_ivf->train_encoder_num_vectors();
+     if (max_nt <= 0) {
+-        max_nt = (size_t)1 << 35;
++        max_nt = std::min<idx_t>(
++                idx_t{1} << 35, std::numeric_limits<size_t>::max());
+     }
+     SubsampledVectors sv(index_ivf->d, &n, max_nt, x);
+ 
+--- a/faiss/invlists/OnDiskInvertedLists.cpp
++++ b/faiss/invlists/OnDiskInvertedLists.cpp
+@@ -6,6 +6,10 @@
+  */
+ 
+ // -*- c++ -*-
++
++#include <algorithm>
++
++#include <limits>
+ 
+ #include <faiss/invlists/OnDiskInvertedLists.h>
+ 
+@@ -527,7 +531,7 @@
+         it++;
+     }
+ 
+-    size_t inf = ((size_t)1) << 60;
++    size_t inf = std::numeric_limits<size_t>::max();
+ 
+     size_t end_prev = inf;
+     if (it != slots.begin()) {
+@@ -536,7 +540,7 @@
+         end_prev = prev->offset + prev->capacity;
+     }
+ 
+-    size_t begin_next = ((size_t)1) << 60;
++    size_t begin_next = inf;
+     if (it != slots.end()) {
+         begin_next = it->offset;
+     }
+--- a/faiss/impl/index_read.cpp
++++ b/faiss/impl/index_read.cpp
+@@ -4,6 +4,10 @@
+  * This source code is licensed under the MIT license found in the
+  * LICENSE file in the root directory of this source tree.
+  */
++
++#include <algorithm>
++
++#include <limits>
+ 
+ #include <faiss/impl/index_read_utils.h>
+ #include <faiss/index_io.h>
+@@ -85,7 +89,8 @@
+ 
+ namespace {
+ size_t deserialization_loop_limit_ = 0;
+-size_t deserialization_vector_byte_limit_ = uint64_t{1} << 40; // 1 TB
++size_t deserialization_vector_byte_limit_ = static_cast<size_t>(
++        std::min<uint64_t>(uint64_t{1} << 40, std::numeric_limits<size_t>::max()));
+ size_t deserialization_lattice_r2_limit_ = 0;
+ 
+ #ifdef FAISS_ENABLE_SVS

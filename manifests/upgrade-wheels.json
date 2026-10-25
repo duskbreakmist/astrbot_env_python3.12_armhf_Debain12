@@ -1,0 +1,132 @@
+[
+  {
+    "filename": "astrbot-4.29.3-py3-none-any.whl",
+    "sha256": "b78d8ab2d6f153c18be7162799b8589c9f5284233d557c93364c22193fe6be8e",
+    "url": "https://files.pythonhosted.org/packages/d3/ca/cbaa6d5c6dfcc6b84264f9612bc1fa88af40d44628fc0a60e06c26bcd0cb/astrbot-4.29.3-py3-none-any.whl",
+    "size": 7202340
+  },
+  {
+    "filename": "certifi-2026.10.23-py3-none-any.whl",
+    "sha256": "e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1",
+    "url": "https://files.pythonhosted.org/packages/32/d1/a3652fe2c19134d0d15922177821d863cbd7e842d53a21bbe7e8e3a1b5ac/certifi-2026.10.23-py3-none-any.whl",
+    "size": 135082
+  },
+  {
+    "filename": "opentelemetry_api-1.45.1-py3-none-any.whl",
+    "sha256": "b31553efa588ae44bc306f863c785c5333a9ecc091248c6ee68b4b6c87fdedfb",
+    "url": "https://files.pythonhosted.org/packages/1e/41/f7dcf80b81ee8e71c1a2b59f14208bc723edbd89ed027a73b175abf6348e/opentelemetry_api-1.45.1-py3-none-any.whl",
+    "size": 60256
+  },
+  {
+    "filename": "opentelemetry_sdk-1.45.1-py3-none-any.whl",
+    "sha256": "c604c11dc429810812348989115fa44bd558772a3d7442afc43d024f2c250ca4",
+    "url": "https://files.pythonhosted.org/packages/95/3c/87c42b4bd6dd297536f04cd9383d212ac557ecd49f2cbdcd46da1c9ef5c8/opentelemetry_sdk-1.45.1-py3-none-any.whl",
+    "size": 140063
+  },
+  {
+    "filename": "opentelemetry_semantic_conventions-0.66b1-py3-none-any.whl",
+    "sha256": "d4cddeb4315490b35213f55e2bdc9ac54bb1e4d318927475bed62b35545e581b",
+    "url": "https://files.pythonhosted.org/packages/bc/14/67f8aa798857f8cf686f515bf93d9bb877ce952ddc8efae0fa25b45ce0d6/opentelemetry_semantic_conventions-0.66b1-py3-none-any.whl",
+    "size": 206279
+  },
+  {
+    "filename": "pip-26.2.2-py3-none-any.whl",
+    "sha256": "fd7f4dfa8190e014013b9f08f3e973f4e4c26ffd179a204895533a7254813a70",
+    "url": "https://files.pythonhosted.org/packages/3f/06/3e4420302363fbb71be3c7f35ce042f54bfca330e3e66b3a2e3c4cca579f/pip-26.2.2-py3-none-any.whl",
+    "size": 1819850
+  },
+  {
+    "filename": "pyotp-2.10.0-py3-none-any.whl",
+    "sha256": "1df2f6a1bcc3bb0716172a5215ddc2f8c7c7fd26a13df9927d52e1746934836c",
+    "url": "https://files.pythonhosted.org/packages/65/33/7b83bde70eddaaaaef487751a9c3a5cc0c0be54620ded0e120ebdc401ff9/pyotp-2.10.0-py3-none-any.whl",
+    "size": 13768
+  },
+  {
+    "filename": "python_docx-1.2.0-py3-none-any.whl",
+    "sha256": "3fd478f3250fbbbfd3b94fe1e985955737c145627498896a8a6bf81f4baf66c7",
+    "url": "https://files.pythonhosted.org/packages/d0/00/1e03a4989fa5795da308cd774f05b704ace555a70f9bf9d3be057b680bcf/python_docx-1.2.0-py3-none-any.whl",
+    "size": 252987
+  },
+  {
+    "filename": "reportlab-5.1.0-py3-none-any.whl",
+    "sha256": "59fdbaec5efe437095ad1d7292ec9a271c8ca2d3ec75e889c6e61400929b90df",
+    "url": "https://files.pythonhosted.org/packages/4a/3c/bf68d44f160b44685fc714f746a954c71d0091b3dc4fd3c8670154b44841/reportlab-5.1.0-py3-none-any.whl",
+    "size": 2018647
+  },
+  {
+    "filename": "faiss_cpu-1.14.3-cp312-cp312-linux_armv7l.whl",
+    "sha256": "277443d76aa83b660a380a5751b7f8f348a1743856f6f4994c05f5b242648403",
+    "source": "custom validated ARM build",
+    "size": 3576619
+  },
+  {
+    "filename": "annotated_doc-0.0.4-py3-none-any.whl",
+    "sha256": "571ac1dc6991c450b25a9c2d84a3705e2ae7a53467b5d111c24fa8baabbed320",
+    "url": "https://files.pythonhosted.org/packages/1e/d3/26bf1008eb3d2daa8ef4cacc7f3bfdc11818d111f7e2d0201bc6e3b49d45/annotated_doc-0.0.4-py3-none-any.whl",
+    "size": 5303,
+    "purpose": "restore missing public-base package"
+  },
+  {
+    "filename": "boto3-1.43.11-py3-none-any.whl",
+    "sha256": "8b166545ca2d6ea49d308db38b9a4f2c54ff718f3d6a55b3fed0184dc2c21597",
+    "url": "https://files.pythonhosted.org/packages/e3/23/8e0d9f563f2f7e8167f6d521205cb63c29e94249a13732e9c5ae9014dc59/boto3-1.43.11-py3-none-any.whl",
+    "size": 140535,
+    "purpose": "restore missing public-base package"
+  },
+  {
+    "filename": "botocore-1.43.11-py3-none-any.whl",
+    "sha256": "0108b5604df5a26918936c845e1e761866ee9ea8d1c1f9358ed3c69afdc37436",
+    "url": "https://files.pythonhosted.org/packages/e1/9a/9f1d955c2eebefb6bd20de740ae7a05e7b015c63f0f01dba338dcf29cc68/botocore-1.43.11-py3-none-any.whl",
+    "size": 15043467,
+    "purpose": "restore missing public-base package"
+  },
+  {
+    "filename": "diskcache-5.6.3-py3-none-any.whl",
+    "sha256": "5e31b2d5fbad117cc363ebaf6b689474db18a1f6438bc82358b024abd4c2ca19",
+    "url": "https://files.pythonhosted.org/packages/3f/27/4570e78fc0bf5ea0ca45eb1de3818a23787af9b390c0b0a0033a1b8236f9/diskcache-5.6.3-py3-none-any.whl",
+    "size": 45550,
+    "purpose": "restore missing public-base package"
+  },
+  {
+    "filename": "fastapi-0.136.1-py3-none-any.whl",
+    "sha256": "a6e9d7eeada96c93a4d69cb03836b44fa34e2854accb7244a1ece36cd4781c3f",
+    "url": "https://files.pythonhosted.org/packages/5a/ff/2e4eca3ade2c22fe1dea7043b8ee9dabe47753349eb1b56a202de8af6349/fastapi-0.136.1-py3-none-any.whl",
+    "size": 117683,
+    "purpose": "restore missing public-base package"
+  },
+  {
+    "filename": "jmespath-1.1.0-py3-none-any.whl",
+    "sha256": "a5663118de4908c91729bea0acadca56526eb2698e83de10cd116ae0f4e97c64",
+    "url": "https://files.pythonhosted.org/packages/14/2f/967ba146e6d58cf6a652da73885f52fc68001525b4197effc174321d70b4/jmespath-1.1.0-py3-none-any.whl",
+    "size": 20419,
+    "purpose": "restore missing public-base package"
+  },
+  {
+    "filename": "networkx-3.6.1-py3-none-any.whl",
+    "sha256": "d47fbf302e7d9cbbb9e2555a0d267983d2aa476bac30e90dfbe5669bd57f3762",
+    "url": "https://files.pythonhosted.org/packages/9e/c9/b2622292ea83fbb4ec318f5b9ab867d0a28ab43c5717bb85b0a5f6b3b0a4/networkx-3.6.1-py3-none-any.whl",
+    "size": 2068504,
+    "purpose": "restore missing public-base package"
+  },
+  {
+    "filename": "pytz-2026.2-py2.py3-none-any.whl",
+    "sha256": "04156e608bee23d3792fd45c94ae47fae1036688e75032eea2e3bf0323d1f126",
+    "url": "https://files.pythonhosted.org/packages/ec/dd/96da98f892250475bdf2328112d7468abdd4acc7b902b6af23f4ed958ea0/pytz-2026.2-py2.py3-none-any.whl",
+    "size": 510141,
+    "purpose": "restore missing public-base package"
+  },
+  {
+    "filename": "s3transfer-0.17.0-py3-none-any.whl",
+    "sha256": "ce3801712acf4ad3e89fb9990df97b4972e93f4b3b0004d214be5bce12814c20",
+    "url": "https://files.pythonhosted.org/packages/87/72/c6c32d2b657fa3dad1de340254e14390b1e334ce38268b7ad51abda3c8c2/s3transfer-0.17.0-py3-none-any.whl",
+    "size": 86811,
+    "purpose": "restore missing public-base package"
+  },
+  {
+    "filename": "ulid_py-1.1.0-py2.py3-none-any.whl",
+    "sha256": "b56a0f809ef90d6020b21b89a87a48edc7c03aea80e5ed5174172e82d76e3987",
+    "url": "https://files.pythonhosted.org/packages/42/7c/a12c879fe6c2b136a718c142115ff99397fbf62b4929d970d58ae386d55f/ulid_py-1.1.0-py2.py3-none-any.whl",
+    "size": 25753,
+    "purpose": "restore missing public-base package"
+  }
+]

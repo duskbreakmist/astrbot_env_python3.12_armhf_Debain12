@@ -1,0 +1,26 @@
+[
+  {
+    "filename": "astrbot-4.29.3-armhf-upgrade-wheels.tar.gz",
+    "bytes": 32672603,
+    "sha256": "3eec6cc7f8b985ff57c4b0b16ed617f44bf3f22ef64375428967f9704f3566f0",
+    "url": "https://github.com/duskbreakmist/astrbot_env_python3.12_armhf_Debain12/releases/download/astrbot-v4.29.3-armhf-20261025/astrbot-4.29.3-armhf-upgrade-wheels.tar.gz"
+  },
+  {
+    "filename": "faiss_cpu-1.14.3-cp312-cp312-linux_armv7l.whl",
+    "bytes": 3576619,
+    "sha256": "277443d76aa83b660a380a5751b7f8f348a1743856f6f4994c05f5b242648403",
+    "url": "https://github.com/duskbreakmist/astrbot_env_python3.12_armhf_Debain12/releases/download/astrbot-v4.29.3-armhf-20261025/faiss_cpu-1.14.3-cp312-cp312-linux_armv7l.whl"
+  },
+  {
+    "filename": "installed-armhf-4.29.3.txt",
+    "bytes": 2678,
+    "sha256": "f4a99058a610b1449fa681111cec1dade73a0fd6ab3ef01c613898527cc3d818",
+    "url": "https://github.com/duskbreakmist/astrbot_env_python3.12_armhf_Debain12/releases/download/astrbot-v4.29.3-armhf-20261025/installed-armhf-4.29.3.txt"
+  },
+  {
+    "filename": "py3_12-astrbot-4.29.3-armhf.tar.gz",
+    "bytes": 103091065,
+    "sha256": "ce7e8d220ffd10bcf79d660baba49ae4046f95322c833a4b625bda8983990364",
+    "url": "https://github.com/duskbreakmist/astrbot_env_python3.12_armhf_Debain12/releases/download/astrbot-v4.29.3-armhf-20261025/py3_12-astrbot-4.29.3-armhf.tar.gz"
+  }
+]

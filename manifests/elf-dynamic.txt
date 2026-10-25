@@ -1,0 +1,36 @@
+
+Dynamic section at offset 0x8e4ed8 contains 33 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libblas.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [liblapack.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgomp.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [_swigfaiss.so]
+ 0x0000001d (RUNPATH)                    Library runpath: [$ORIGIN]
+ 0x0000000c (INIT)                       0xe0094
+ 0x0000000d (FINI)                       0x6fda5c
+ 0x00000019 (INIT_ARRAY)                 0x8db564
+ 0x0000001b (INIT_ARRAYSZ)               180 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x8db618
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x138
+ 0x00000005 (STRTAB)                     0x25dc8
+ 0x00000006 (SYMTAB)                     0xc288
+ 0x0000000a (STRSZ)                      535794 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x8e5000
+ 0x00000002 (PLTRELSZ)                   18400 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0xdb8b4
+ 0x00000011 (REL)                        0xac0c4
+ 0x00000012 (RELSZ)                      194544 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0xabe24
+ 0x6fffffff (VERNEEDNUM)                 6
+ 0x6ffffff0 (VERSYM)                     0xa8aba
+ 0x6ffffffa (RELCOUNT)                   16265
+ 0x00000000 (NULL)                       0x0

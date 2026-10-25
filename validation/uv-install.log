@@ -1,0 +1,19 @@
+Using Python 3.12.3 environment at: /opt/py3_12
+Resolved 140 packages in 202ms
+Prepared 10 packages in 3.25s
+Uninstalled 4 packages in 2.17s
+Installed 10 packages in 26.84s
+ - astrbot==4.24.2
+ + astrbot==4.29.3
+ - certifi==2026.4.22
+ + certifi==2026.10.23
+ - faiss-cpu==1.13.2 (from file:///workplace/faiss/build/faiss/python/dist/faiss_cpu-1.13.2-py3-none-any.whl)
+ + faiss-cpu==1.14.3
+ + opentelemetry-api==1.45.1
+ + opentelemetry-sdk==1.45.1
+ + opentelemetry-semantic-conventions==0.66b1
+ - pip==26.1
+ + pip==26.2.2
+ + pyotp==2.10.0
+ + python-docx==1.2.0
+ + reportlab==5.1.0

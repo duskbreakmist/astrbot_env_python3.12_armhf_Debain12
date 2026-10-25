@@ -1,0 +1,7 @@
+Debian 12 armhf; glibc 2.36; Cortex-A7 NEON/VFPv4
+libblas3:armhf 3.11.0-2
+liblapack3:armhf 3.11.0-2
+libstdc++6:armhf 12.2.0-14+deb12u1
+libgomp1:armhf 12.2.0-14+deb12u1
+libc6:armhf 2.36-9+deb12u14
+No Python 3.11 packages are used by /opt/py3_12.

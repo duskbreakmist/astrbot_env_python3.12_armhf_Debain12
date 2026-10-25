@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-25",
+  "target": "AstrBot 4.29.3 / Debian12 armhf / CPython3.12.3",
+  "faiss_source": "facebookresearch/faiss v1.14.3",
+  "faiss_wheel": "cp312-cp312-linux_armv7l",
+  "numpy": "2.4.4",
+  "host_compile": "Debian12 amd64 chroot, GCC12 cross compiler",
+  "target_validation": "Debian12 armhf chroot + QEMU; HI3798 Cortex-A7",
+  "python311_runtime_packages_used": false,
+  "system_site_packages": false,
+  "board_package_count": 150,
+  "public_base_package_count": 134,
+  "upgrade_wheel_count": 20,
+  "recovery_venv_origin": "old public 1.0.0 venv + verified wheels; no production data",
+  "runtime_version_updated": false,
+  "known_omissions": [
+    "_lzma",
+    "SILK backend in silk-python 0.2.8"
+  ],
+  "release_tag": "astrbot-v4.29.3-armhf-20261025"
+}

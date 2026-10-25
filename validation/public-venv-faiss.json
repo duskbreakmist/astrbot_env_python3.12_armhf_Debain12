@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "faiss": "1.14.3",
+  "numpy": "2.4.4",
+  "python": "3.12.3 (main, May  3 2026, 22:56:57) [GCC 12.2.0]",
+  "machine": "armv7l",
+  "pointer_bytes": 4,
+  "faiss_file": "/opt/py3_12/lib/python3.12/site-packages/faiss/__init__.py",
+  "tests": [
+    "FlatL2 vs NumPy",
+    "64-bit IDs above 2^31",
+    "reconstruct",
+    "Flat/IDMap/IVF serialization",
+    "IVFFlat training and search",
+    "C++ to Python selector callback",
+    "HNSW",
+    "OnDiskInvertedLists allocate/shrink/free"
+  ]
+}
