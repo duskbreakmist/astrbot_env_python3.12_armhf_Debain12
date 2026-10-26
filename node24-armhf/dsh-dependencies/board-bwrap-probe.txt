@@ -1,0 +1,5 @@
+HI3798moe26
+root
+/root
+bubblewrap 0.8.0
+bwrap_nonroot_exit=1
