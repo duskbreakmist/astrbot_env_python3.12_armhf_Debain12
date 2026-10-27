@@ -1,2 +1,0 @@
-landlock-run: landlock is not enforced by this kernel (ABI unsupported or disabled)
-exit=125
